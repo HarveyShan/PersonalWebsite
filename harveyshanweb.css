@@ -2,10 +2,7 @@ body{
 	background: url(https://images.unsplash.com/photo-1539308589527-4fbbc6e1216f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0454daa09dabc1a3d3ffe34db0c4287a&auto=format&fit=crop&w=1947&q=80);
 	background-position: center;
 	background-size: cover;
-<<<<<<< HEAD
-	font-family: Lato;
-=======
->>>>>>> 85e5b28262876c6d9e5452fa24f3feda99a44725
+/*	font-family: Lato;*/
 /*	background-repeat: no-repeat;*/
 /*	overflow: hidden;*/
 }
@@ -15,10 +12,7 @@ body{
 	text-align: center;
 	text-shadow: 0px 2px 2px grey;
 	color: #F5F5F5;
-<<<<<<< HEAD
-	font-size: 5em;
-=======
->>>>>>> 85e5b28262876c6d9e5452fa24f3feda99a44725
+	font-size: 5rem;
 }
 
 .flash {
@@ -35,10 +29,11 @@ body{
     to {color: transparent;}
 }
 
-<<<<<<< HEAD
+
 html{
 	height: 100%;
-=======
+}
+
 img{
 	width: 15%;
 	background-color: transparent;
@@ -52,7 +47,8 @@ img{
 
 
 .description{
-	text-shadow: 2px 2px 2px grey;
+	color: white;
+	text-shadow: 1px 1px 1px black;
 
 }
 html{
@@ -61,5 +57,4 @@ html{
 
 .secondLine{
 	padding-top: 2rem;
->>>>>>> 85e5b28262876c6d9e5452fa24f3feda99a44725
 }
