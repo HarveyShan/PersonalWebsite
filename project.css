@@ -5,3 +5,21 @@ html{
 .title{
 	text-align: center;
 }
+
+.parallax {
+    /* The image used */
+    background-image: url('background2.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project1{
+	background: url('background4.jpg');
+}
