@@ -1,0 +1,26 @@
+.theTitle{	
+	font-family: Patrick Hand;
+	/*text-align: middle;*/
+	padding-top: 10%;
+	font-size: 3rem;
+	/*color: red;*/
+}
+
+.subHeading{
+	font-family: Patrick Hand;
+
+}
+
+.parallax {
+    /* The image used */
+    background-image: url(https://images.unsplash.com/photo-1521071007065-1e9390ac6bf2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bbc96b26e4f290e8bd547ae6db3979cf&auto=format&fit=crop&w=1950&q=80);
+
+    /* Full height */
+    height: 40rem; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
