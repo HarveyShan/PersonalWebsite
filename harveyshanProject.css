@@ -1,75 +1,42 @@
-body{
-	background: url("https://images.unsplash.com/photo-1539308589527-4fbbc6e1216f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0454daa09dabc1a3d3ffe34db0c4287a&auto=format&fit=crop&w=1947&q=80");
-	background-position: center;
-	background-size: cover;
-	font-family: Nunito;
-/*	background-repeat: no-repeat;*/
-/*	overflow: hidden;*/
-}
-
-.headline{
-	padding-top: 12%;
-	padding-bottom: 9%;
-	text-align: center;
-	text-shadow: 0px 2px 2px grey;
-	color: #F5F5F5;
-	font-weight: 200;
-}
-
-.contact-Info{
-	
-	bottom: 0;
-	position: fixed;
+#jumbotronID{
+    padding: 5%;
 }
 
 .title{
-	font-size: 3rem;
+    padding: 3%;
 }
 
-.flash {
-   animation-name: flash;
-    animation-duration: 1s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-play-state: running;
+#imageRobot{
+    padding: 5%;
 }
 
-@keyframes flash {
-    from {color: white;}
-    to {color: transparent;}
+.contact-Info{
+    padding-left: 25%;
+}
+
+hr{
+    background-color: black;
+}
+
+.seperater{
+    padding: 1%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1506539025711-565f06c5c0d6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=85a334d729888af5e30fa5c55ea936bb&auto=format&fit=crop&w=1350&q=80");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
-html{
-	height: 100%;
-}
-
-img{
-	width: 15%;
-	background-color: transparent;
-}
-
-.item {
-    vertical-align: top;
-    display: inline-block;
-    text-align: center;
-}
-
-
-.description{
-	color: white;
-	text-shadow: 1px 1px 1px black;
-
-}
-
-html{
-	height: 100%;
-}
-
-.secondLine{
-	padding-top: 1rem;
-}
 
 
 /* Contact */
@@ -175,8 +142,3 @@ ul li a:hover span:nth-child(4){
     transform-origin: bottom;
     transition: transform 0.5s;
 }
-
-
-/*http://www.modafinilsale.com/data/out/734/231109645-hd-simplistic-wallpapers.png*/
-/*http://www.modafinilsale.com/data/out/734/231363425-hd-simplistic-wallpapers.png*/
-/*https://images.unsplash.com/photo-1539308589527-4fbbc6e1216f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0454daa09dabc1a3d3ffe34db0c4287a&auto=format&fit=crop&w=1947&q=80*/

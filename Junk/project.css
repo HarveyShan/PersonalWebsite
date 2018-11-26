@@ -1,0 +1,89 @@
+html{
+	height: 100%;
+}
+
+.title{
+	text-align: center;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url(https://www.xmple.com/wallpaper/linear-gradient-grey-1920x1080-c2-696969-d3d3d3-a-270-f-14.svg);
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro {
+    /* The image used */
+    background-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9e2448175103d36c873e2511d112d339&auto=format&fit=crop&w=1050&q=80');
+
+    /* Full height */
+    height: 900px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projectRobot{
+	    /* The image used */
+    background-image: url('Robotics1.jpg');
+
+    /* Full height */
+    height: 200px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projectWeb{
+	    /* The image used */
+    background-image: url('https://images.unsplash.com/photo-1529101091764-c3526daf38fe?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=43ef07555334a21b6c7dcecc929070ce&auto=format&fit=crop&w=1191&q=80');
+
+    /* Full height */
+    height: 400px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*https://images.unsplash.com/photo-1529101091764-c3526daf38fe?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=43ef07555334a21b6c7dcecc929070ce&auto=format&fit=crop&w=1191&q=80*/
+
+.projectBank{
+	    /* The image used */
+    background-image: url('https://images.unsplash.com/photo-1520085601670-ee14aa5fa3e8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cdc4d332eab7ae54a6449ef4918730f5&auto=format&fit=crop&w=1050&q=80');
+
+    /* Full height */
+    height: 400px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contents{
+	height: 500px;
+}
+
+/*mountain image https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9e2448175103d36c873e2511d112d339&auto=format&fit=crop&w=1050&q=80*/
+/*https://images.unsplash.com/photo-1505855265981-d52719d1f64e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bf90998a0fb366ac0e73fce27ba7d3fc&auto=format&fit=crop&w=701&q=80*/
+/*https://images.unsplash.com/photo-1528827352060-35c8861f19f4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d79ee93057fe62338fe30faca515c7fe&auto=format&fit=crop&w=1050&q=80*/
+/*https://images.unsplash.com/photo-1485470733090-0aae1788d5af?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=98c2d910abcc9bb04fcb180f6a45e407&auto=format&fit=crop&w=1091&q=80*/
+/*https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0Di6SmHbWq3OIgqomWUUOyuJ0IXSxuml2eOyZRuJJehmEJDQY*/
