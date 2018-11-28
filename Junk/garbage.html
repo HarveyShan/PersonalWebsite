@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <title>Projects2.0</title>
+    <script src="rellax.js"></script>
+    <link rel="stylesheet" href="project2.css">
+</head>
+
+<body>
+    <div class="rellax d1">
+        <img src="https://images.unsplash.com/photo-1511358146320-eb018ab3e22e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d612beb360bdf694c77949d854f3312e&auto=format&fit=crop&w=1050&q=80">
+    </div>
+
+    <div class="rellax d2">
+        <img src="https://images.wallpaperscraft.com/image/mountains_fog_peaks_snowy_119834_3840x2400.jpg">
+    </div>
+    
+    
+
+</body>
+    <script type="text/javascript" src="rellax.js"></script>
+    <script>
+        var rellax = new Rellax('.rellax', {
+        // center: true
+        callback: function(position) {
+            // callback every position change
+            console.log(position);
+        }
+      });
+    </script>
+</html>

@@ -1,14 +1,9 @@
-.theTitle{	
-	font-family: Patrick Hand;
-	/*text-align: middle;*/
-	padding-top: 10%;
-	font-size: 3rem;
-	/*color: red;*/
+hr{
+    background-color: black;
 }
 
-.subHeading{
-	font-family: Patrick Hand;
-
+.seperater{
+    padding: 1%;
 }
 
 .parallax {
@@ -23,4 +18,109 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+
+/* Contact */
+ul{
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0; */
+    display: flex;
+    
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    /* background: #ccc; */
+    text-decoration: none;
+    content: #262626;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+
+ul li a span{
+    position: absolute;
+    transition-duration: 0.5s;
+}
+/* Horizontal */
+ul li a span:nth-child(1),
+ul li a span:nth-child(3){
+    
+    width: 100%;
+    height: 1px;
+    background: #262626;
+}
+
+ul li a span:nth-child(1){
+    top: 0;
+    left: 0;
+    transform-origin: right;
+}
+
+ul li a:hover span:nth-child(1){
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s;
+}
+/* bottom */
+
+ul li a span:nth-child(3){
+    bottom: 0;
+    right: 0;
+    transform-origin: left;
+}
+
+ul li a:hover span:nth-child(3){
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+}
+
+/* Vertical */
+ul li a span:nth-child(2),
+ul li a span:nth-child(4){
+    width: 1px;
+    height: 100%;
+    background: #262626;
+}
+/* Left */
+ul li a span:nth-child(2){
+    top: 0;
+    left: 0;
+    transform: scaleY(0);
+    transform-origin: bottom;
+}
+
+ul li a:hover span:nth-child(2){
+    transform: scaleY(1);
+    transform-origin: top;
+    transition: transform 0.5s;
+}
+
+/* Right */
+ul li a span:nth-child(4){
+    top: 0;
+    right: 0;
+    transform: scaleY(0);
+    transform-origin: bottom;
+}
+
+ul li a:hover span:nth-child(4){
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
 }
