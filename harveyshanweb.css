@@ -1,10 +1,19 @@
 body{
-	background: url("https://images.unsplash.com/photo-1539308589527-4fbbc6e1216f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0454daa09dabc1a3d3ffe34db0c4287a&auto=format&fit=crop&w=1947&q=80");
+	background: url("HarveyFarRight.png");
 	background-position: center;
 	background-size: cover;
 	font-family: Nunito;
 /*	background-repeat: no-repeat;*/
 /*	overflow: hidden;*/
+}
+
+.icon{
+    font-size: 5rem;
+    color: white;
+}
+
+.smallIcon{
+    color: white;
 }
 
 .headline{
@@ -17,9 +26,12 @@ body{
 }
 
 .contact-Info{
-	
 	bottom: 0;
 	position: fixed;
+}
+
+.dividerTop{
+    padding-top: 5%;
 }
 
 .title{
@@ -96,7 +108,7 @@ ul li a{
     line-height: 50px;
     font-size: 20px;
     text-align: center;
-    /* background: #ccc; */
+    /* background: white; */
     text-decoration: none;
     content: #262626;
     margin: 0 10px;
