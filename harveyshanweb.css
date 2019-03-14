@@ -9,13 +9,52 @@ body{
 
 .icon{
     font-size: 3rem;
-    color: greenyellow;
+    color: purple;
+    position: relative;
+    top: 20%;
 }
+
+.box{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background: white;
+    box-sizing: border-box;
+    margin: 0 10px;
+}
+
+.diagram:before,
+.diagram:after
+{ 
+    position: relative;
+    width: 8rem;
+    height: 8rem;
+    background: red;
+    border-radius: 50%;
+    filter: blur(10px);
+    opacity: 1;
+    transition: 1s;     
+}
+
+
+.diagram:after
+{
+    filter: blur(20px);
+}
+
+.box:hover:before,
+.box:hover:after
+{
+    opacity: 1;
+}
+
+
 /* 
 .typeContent{
     color: greenyellow;
     font-family: Ubuntu;
 } */
+
 
 .smallIcon{
     color: white;
