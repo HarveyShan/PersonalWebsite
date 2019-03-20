@@ -1,5 +1,5 @@
 body{
-	background: url("HarveyFarRight.png");
+	background: url("HarveyFarRight-min.png");
 	background-position: center;
 	background-size: cover;
 	/* font-family: Nunito; */
@@ -7,84 +7,45 @@ body{
 /*	overflow: hidden;*/
 }
 
-
-.spacer{
-    padding: 3%;
-}
-
-.spacer1{
-    padding: 3%;
-}
-
-.icon
-{
+.icon{
+    font-size: 3rem;
+    color: purple;
     position: relative;
-    list-style: none;
-    width: 100px;
-    height: 100px;
-    margin: 0 10px;
+    top: 20%;
+}
+
+.box{
+    width: 8rem;
+    height: 8rem;
     border-radius: 50%;
+    background: white;
     box-sizing: border-box;
+    margin: 0 10px;
 }
 
-
-.icon:before,
-.icon:after
+.diagram:before,
+.diagram:after
 { 
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: gold;
+    position: relative;
+    width: 8rem;
+    height: 8rem;
+    background: red;
     border-radius: 50%;
+    filter: blur(10px);
+    opacity: 1;
+    transition: 1s;     
+}
+
+
+.diagram:after
+{
     filter: blur(20px);
-    opacity: 0;
-    transition: 1s; 
-    z-index: -1;    
 }
 
-
-.icon:after
-{
-    filter: blur(100px);
-    /* transform: scale(10rem); */
-}
-
-
-.icon:hover:before,
-.icon:hover:after
+.box:hover:before,
+.box:hover:after
 {
     opacity: 1;
-}
-
-.logo
-{
-    background-size: 3em;
-    top: 25px;
-    left: 15px;
-    text-align: center;
-    color:white;
-    background: rgba(223, 203, 203, 0.308);
-    transform: scale(1.5);
-    font-size: 1em;
-    border-radius: 100%;
-}
-
-.logo .fas
-{
-    text-shadow: 0 2 5px rgba(139, 74, 74, 0.2);
-    transition: 0.5s;
-    font-size: -2em;
-    transform: rotateY(0deg) scale(1.2);
-    opacity: 0.3;
-}
-
-.logo:hover .fas
-{
-    opacity: 1;
-    transform: scale(1.5);
 }
 
 

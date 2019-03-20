@@ -20,6 +20,11 @@ hr{
     background-size: cover;
 }
 
+.contact-Info{
+    position: absolute;
+    padding-left: 39%;
+}
+
 
 /* Contact */
 ul{
